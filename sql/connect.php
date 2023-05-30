@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "DATABASE";
+$password = "myme123";
+$dbname = "Myme-database";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection

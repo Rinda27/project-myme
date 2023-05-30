@@ -2,8 +2,8 @@
 class controller {
 	private $host = "localhost";
 	private $user = "root";
-	private $password = "";
-	private $database = "DATABASE";
+	private $password = "myme123";
+	private $database = "Myme-database";
 
 	function __construct() {
 		$conn = $this->connectDB();
