@@ -1,14 +1,5 @@
 <?php
 
-// Create the form
-echo <<<HTML
-<form action="/login" method="post">
-  <input type="text" name="username" placeholder="Username">
-  <input type="password" name="password" placeholder="Password">
-  <input type="submit" value="Login">
-</form>
-HTML;
-
 // Check if the form has been submitted
 if (isset($_POST['username']) && isset($_POST['password'])) {
 

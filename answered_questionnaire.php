@@ -6,7 +6,9 @@ if (
     isset($_POST['answer_1']) && isset($_POST['question_2']) && isset($_POST['answer_2']) && isset($_POST['question_3']) && isset($_POST['answer_3']) && 
     isset($_POST['question_4']) && isset($_POST['answer_4']) && isset($_POST['question_5']) && isset($_POST['answer_5']) && isset($_POST['question_6']) && 
     isset($_POST['answer_6']) && isset($_POST['question_7']) && isset($_POST['answer_7'])&& isset($_POST['question_8']) && isset($_POST['answer_8']) && 
-    isset($_POST['question_9']) && isset($_POST['answer_9'])) {
+    isset($_POST['question_9']) && isset($_POST['answer_9'])
+    ) 
+{
 
   // Validate the form data
   $test_date = $_POST['test_date'];
